@@ -7,7 +7,7 @@ module PC
 
 	//Funcionamiento interno
 	always @(posedge CLK) begin
-		data_out = data_in;
+		data_out <= data_in;
 	end
 	
 endmodule
